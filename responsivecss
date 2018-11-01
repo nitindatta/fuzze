@@ -1,0 +1,13 @@
+
+.o_cp_sidebar .o_dropdown:nth-last-child(2) button{
+        width: 32px;
+        overflow: hidden;
+        margin-right: 5px;
+        border-bottom-left-radius: 3px !important;
+        border-top-left-radius: 5px !important;
+    }
+.o_cp_sidebar .o_dropdown:nth-last-child(2) button::before {
+    font-family: FontAwesome;
+    margin-right: 14px;
+    content: "\f0c6";
+	}
