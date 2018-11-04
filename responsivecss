@@ -12,6 +12,7 @@
     content: "\f0c6";
 	}
 
+window.document.onload = function(e){
 var mobile = document.createElement('div');
 mobile.className = 'icon';
 mobile.innerHTML='More<span class="caret"></span>';
@@ -24,6 +25,7 @@ mobile.onclick=function(){
     }
 	};
 document.querySelector('.nav-tabs').appendChild(mobile);
+}
 
 .nav-tabs .icon {
   display: none;
