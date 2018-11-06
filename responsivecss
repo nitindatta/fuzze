@@ -1,4 +1,20 @@
 
+	$(document).ready(function() {
+	var mobile = document.createElement('div');
+	mobile.className = 'icon';
+	mobile.innerHTML='More<span class="caret"></span>';
+	mobile.onclick=function(){
+		var x = document.querySelector('.nav-tabs');
+		if (x.className === "nav-tabs") {
+			x.className += " responsive";
+		} else {
+			x.className = "nav-tabs";
+		}
+		};
+	document.querySelector('.nav-tabs').appendChild(mobile);
+
+	});
+
 .o_cp_sidebar .o_dropdown:nth-last-child(2) button{
         width: 32px;
         overflow: hidden;
