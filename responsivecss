@@ -1,3 +1,20 @@
+	$(document).ready(function() {
+	var mobile = document.createElement('div');
+	mobile.className = 'icon';
+	mobile.innerHTML='More2<span class="caret"></span>';
+	mobile.onclick=function(){
+		var x = document.querySelector('.nav-tabs');
+		if (x.className === "nav nav-tabs") {
+			x.className += " responsive";
+		} else {
+			x.className = "nav nav-tabs";
+		}
+		};
+	if (document.querySelector('.nav-tabs'))
+		document.querySelector('.nav-tabs').appendChild(mobile);
+
+	});
+	
 
 	$(document).ready(function() {
 	var mobile = document.createElement('div');
