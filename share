@@ -1,2 +1,6 @@
+$('#odooMenuBarNav').on( "click", function() {
+  if ($('#odooMenuBarNav')) { odooMenuBarToggle.click(); }
+});
+
 https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
 https://www.kaggle.com/manjeetsingh/retaildataset
