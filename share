@@ -1,4 +1,1 @@
-@media screen and (max-width: 360px)
-.o_form_view .o_group.o_inner_group {
-    min-width: 320px;
-}
+https://github.com/Odoo-mobile/framework/blob/master/app/src/main/AndroidManifest.xml
