@@ -1,1 +1,8 @@
-https://github.com/Odoo-mobile/framework/blob/master/app/src/main/AndroidManifest.xml
+    private void loadAppInWebView() {
+        webView = (WebView) findViewById(R.id.webview);
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setGeolocationEnabled(true);
+        webView.setWebViewClient(new MyWebViewClient());
+        webView.loadUrl(AppConstants.APP_URL);
+    }
